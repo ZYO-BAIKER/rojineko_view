@@ -21,7 +21,7 @@ export default {
   name: 'DefaultLayout',
   data() {
     return {
-      title: 'Vuetify.js',
+      title: 'ロジねこビュー',
     }
   },
 }
