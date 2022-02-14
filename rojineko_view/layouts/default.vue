@@ -1,7 +1,7 @@
 <template>
-  <v-app dark>
-    <v-app-bar :clipped-left="clipped" fixed app>
-      <v-toolbar-title v-text="title" />
+  <v-app>
+    <v-app-bar fixed app flat color="blue">
+      <v-toolbar-title :class="$style.toolbar_title" v-text="title" />
       <v-spacer />
     </v-app-bar>
     <v-main>
@@ -26,3 +26,10 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" module>
+.toolbar_title {
+  color: #ffffff;
+  font-weight: bold;
+}
+</style>
